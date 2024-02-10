@@ -52,6 +52,4 @@ Route::middleware('verified')->group( function () {
    Route::get('showmessage/{id}', [MessageController::class, 'show'])->name('showmessage');
    Route::get('deletemessage/{id}', [MessageController::class, 'destroy'])->name('deletemessage');
    Route::get('unreadmessage',[MessageController::class,'unread'])->name('unreadmessage');
-
-   
 });
