@@ -28,3 +28,4 @@ Route::get('about', [MainController::class, 'about'])->name('about');
 Route::get('contact', [MainController::class, 'create'])->name('contact');
 Route::post('sendcontactinfo', [MainController::class, 'sendcontactinfo'])->name('sendcontactinfo');
 Route::get('singlecar/{id}', [MainController::class, 'show'])->name('singlecar');
+
